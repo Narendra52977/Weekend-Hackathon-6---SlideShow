@@ -22,21 +22,21 @@ const App = (props) => {
         disabled={cur === 0}
         onClick={handleRestart}
       >
-        restart
+        Restart
       </button>
       <button
         data-testid="button-prev"
         disabled={cur === 0}
         onClick={handlePrev}
       >
-        prev
+        Prev
       </button>
       <button
         data-testid="button-next"
         disabled={cur === props.slides.length - 1}
         onClick={handleNext}
       >
-        next
+        Next
       </button>
     </>
   );
